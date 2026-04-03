@@ -1,12 +1,12 @@
-## 🏦Bank Marketing Intelligence: De los Insights a la Predicción de Conversión
+# 🏦Bank Marketing Intelligence: De los Insights a la Predicción de Conversión
 
-# 📌Visión General
+## 📌Visión General
 Este ecosistema analítico aborda el desafío de las campañas de marketing directo en una institución financiera. El proyecto integra Análisis Exploratorio de Datos (EDA) avanzado con Modelado Predictivo Híbrido (Machine Learning Clásico + Deep Learning) para maximizar la suscripción de depósitos a plazo fijo.
 
 El problema: El marketing telefónico es costoso y tiene bajas tasas de conversión.
 La solución: Un motor de segmentación que identifica clientes con alta propensión y define estrategias de contacto óptimas.
 
-# 🛠️Stack Tecnológico y Metodología
+## 🛠️Stack Tecnológico y Metodología
 El proyecto se divide en dos pilares fundamentales que cubren todo el ciclo de vida del dato:
 
 - 1. Análisis Estratégico e Insights (EDA)
@@ -26,17 +26,17 @@ Perfil de Liquidez,Priorizar clientes con balance medio/alto sin deudas activas.
 Predicción del Modelo,Filtrar la base de contactos mediante el Score de la ANN.,Optimización del tiempo de los operadores en un 40%.
 
 
-# 🔬Rigor Técnico: Evaluación del Modelo
+## 🔬Rigor Técnico: Evaluación del Modelo
 A diferencia de enfoques básicos, este proyecto pone énfasis en la estabilidad del modelo:
 - Validación: Uso de train_test_split con monitoreo de Accuracy vs Epochs para prevenir el sobreajuste (overfitting).
 - Escalabilidad: Pipeline preparado para normalización de datos estadísticos (StandardScaler) antes del entrenamiento.
 
-# 🚀Instalación y Ejecución
+## 🚀Instalación y Ejecución
 - Clonar el repositorio.
 - Instalar dependencias: pip install pandas scikit-learn tensorflow imbalanced-learn seaborn.
 - Ejecutar el pipeline de análisis: python MKTbancario2.py.
 - Entrenar el motor predictivo: python MKTbancario1.py.
 
-👤 Sobre la autora
+## 👤Sobre la autora
 Flavia Hepp Data Scientist especializado en el sector financiero. 
 Mi enfoque combina la precisión técnica de las redes neuronales con una visión estratégica orientada a resultados de negocio y eficiencia operativa.
